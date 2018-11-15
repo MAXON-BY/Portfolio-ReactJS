@@ -1,40 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Max Nyrkov (Frontend Developer)">
+	<meta name="author" content="Max Nyrkov">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+	<title>Max Nyrkov (Frontend Developer) - My Personal Portfolio</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+	<!-- CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="css/style.css" rel="stylesheet" media="screen">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+	<!--<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>-->
+	<!--<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>-->
+</head>
+<body>
+
+	<!-- Home start -->
+	<div id="headerS"></div>
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+	<div id="navigationS"></div>
+	<!-- Navigation end -->
+
+    <!-- Services start -->
+	<div id="serviceS"></div>
+	<!-- Services end -->
+    
+	<!-- Portfolio start -->
+	<div id="portfolioS"></div>
+	<!-- Portfolio end -->
+    
+    <!-- Skills start -->
+	<div id="skillS"></div>
+    <!-- Skills end -->
+
+	<!-- CallToAction start -->
+	<div id="callToActionS"></div>
+	<!-- CallToAction end -->
+
+	<!-- Contact start -->
+	<div id="contactS"></div>
+	<!-- Contact end -->
+
+	<!-- React SPA & Test start-->
+	<div id="testS"></div>
+	<!-- React SPA & Test end-->
+
+	<!-- Footer start -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<!--<ul class="social-links">-->
+						<!--<li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>-->
+						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>-->
+						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>-->
+						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>-->
+						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>-->
+					<!--</ul>-->
+
+
+                    <p class="copyright">
+                        © 2015 Max Nyrkov
+					</p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
 </html>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter48475259 = new Ya.Metrika({
+					id:48475259,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true
+				});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48475259" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
