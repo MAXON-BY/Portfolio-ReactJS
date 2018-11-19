@@ -126,3 +126,21 @@
     background-position: center;
     background-size: cover;
 }
+.select-city{
+    text-align: left;
+    padding: 10px 0;
+}
+.select-city span{
+    font-size: 14px;
+    line-height: 1.3;
+    color: #f16051;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.select-text{
+    display: block;
+    color: #fff !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    opacity: 0.3;
+}
