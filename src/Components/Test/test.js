@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import MoshCountrs from  './MoshCounters.js'
 import "./test.css"
 
 class TestCode extends Component{
@@ -101,9 +102,7 @@ class TestCode extends Component{
                     </ul>
                 </div>
 
-                <div className="formWrap hidden">
-
-                </div>
+                <MoshCountrs />
             </div>
         )
     }

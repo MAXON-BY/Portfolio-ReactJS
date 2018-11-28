@@ -11,7 +11,7 @@ class App extends Component {
         <Timer />
         <GitUser />
         <Weather />
-        <div className="hidden"><TestCode /></div>
+        <div><TestCode /></div>
       </div>
     );
   }
