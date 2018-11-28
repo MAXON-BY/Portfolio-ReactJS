@@ -17,7 +17,7 @@ class MoshCounters extends Component{
                 <h2>Mosh Test</h2>
                 <div>
                     {this.state.counters.map(counter => (
-                        <Mosh key={counter.id} value={counter.value}>
+                        <Mosh key={counter.id} value={counter.value} id={counter.id}>
                             <h4 style={{color: '#ee9038'}}>Counter #{counter.id}</h4>
                         </Mosh>
                     ))}

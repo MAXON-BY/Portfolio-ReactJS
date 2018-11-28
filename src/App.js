@@ -3,6 +3,7 @@ import Timer from './Components/Timer/timer.js'
 import TestCode from './Components/Test/test.js'
 import GitUser from './Components/Git/GitUser.js'
 import Weather from './Components/Weather/Weather.js'
+import ToDo from './Components/ToDo/ToDo.js'
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
         <Timer />
         <GitUser />
         <Weather />
-        <div><TestCode /></div>
+        <ToDo />
+        <div className="hidden"><TestCode /></div>
       </div>
     );
   }
