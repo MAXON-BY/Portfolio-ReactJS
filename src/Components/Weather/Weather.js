@@ -3,6 +3,7 @@ import './Weather.css'
 import Titles from './Titles.js'
 import Form from './Form.js'
 import Info from './Info.js'
+import Cities from './Cities.js'
 
 const API_KEY = "d247634481dbb5763c73c6a7aa7260d7";
 
@@ -69,6 +70,7 @@ class Weather extends Component{
                                     </div>
                                     <div className="col-xs-7 form-container">
                                         <Form getWeather={this.getWeather} />
+                                        <Cities getWeather={this.getWeather} />
                                         <Info
                                             date={this.state.date}
                                             temp={this.state.temp}

@@ -13,7 +13,7 @@ class App extends Component {
         <GitUser />
         <Weather />
         <ToDo />
-        <div className="hidden"><TestCode /></div>
+        <div><TestCode /></div>
       </div>
     );
   }

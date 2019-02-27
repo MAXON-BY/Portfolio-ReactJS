@@ -126,16 +126,24 @@
     background-position: center;
     background-size: cover;
 }
+.flex-div{
+    display: flex;
+    align-items: flex-start;
+}
 .select-city{
     text-align: left;
     padding: 10px 0;
+    padding-bottom: 20px;
 }
-.select-city span{
+.select-city span button{
     font-size: 14px;
     line-height: 1.3;
     color: #f16051;
     margin-right: 8px;
     cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    transition: 0.3s;
 }
 .select-text{
     display: block;
@@ -143,4 +151,9 @@
     font-weight: lighter;
     letter-spacing: 2px;
     opacity: 0.3;
+    font-size: 22px;
+}
+.select-city span button:hover{
+    border-bottom: 1px dotted;
+    transition: 0.3s;
 }

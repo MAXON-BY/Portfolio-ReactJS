@@ -8,5 +8,5 @@ const Form = props => (
             <button>Get Weather</button>
         </form>
     </div>
-)
+);
 export default Form
